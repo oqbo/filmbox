@@ -1,0 +1,153 @@
+/* CSS Document */
+
+html {
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+/*	color: #333;*/
+	text-align: center;
+	margin: 0px;
+	padding: 20px 0px 20px 0px;
+	background-image: url('back.gif');
+}
+
+#wrapper {
+	width: 677px;
+	padding: 10px;
+	margin: 0px auto 0px auto;
+	height: auto;
+	text-align: left;
+	border: 1px solid #8D8D8D;
+}
+
+#header {
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+	width: 653px;
+	background-image: url('oqbo_top.gif');
+	background-repeat: no-repeat;
+	margin: 0px auto;
+}
+
+#container {
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+	background-attachment: scroll;
+	background-image: url('back.gif');
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	height: 1%;
+	width: auto;
+}
+
+#left {
+	margin: 0px;
+	width: 150px;
+	padding: 10px 20px 10px 20px;
+	float: left;
+/*background-color: white;*/
+}
+
+#imgpos {
+	margin: 0 auto;
+	text-align: right;
+}
+
+img.cover {
+	margin: 0.5em auto;
+	padding: 0;
+}
+
+#nav {
+	margin: 0px;
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+#nav li {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	background-attachment: scroll;
+	background-image: url('bullet.gif');
+	background-repeat: no-repeat;
+	background-position: 0px 50%;
+}
+
+#nav li a:link, #nav li a:visited, #nav li a:active {
+	color: #666;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	padding: 3px 15px 3px 15px;
+	width: 130px;
+}
+
+#nav li a:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+#center {
+	height: auto;
+	width: 434px;
+	padding: 10px 20px 10px 20px;
+	float: left;
+	margin: 0px 0px 0px 6px;
+	line-height: 1.8em;
+	color: #66686a;
+	text-shadow: 0px 0px 5px silver;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font: bold 20px "Cardo", Lucida;
+	color: #4f5051;
+	text-shadow: 0px 0px 5px silver;
+}
+
+#right {
+	padding: 10px 20px 10px 20px;
+	height: auto;
+	width: 160px;
+	float: left;
+	margin: 0px 0px 0px 6px;
+}
+
+.clearer {
+	font-size: 0px;
+	line-height: 0px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	height: 0px;
+	width: auto;
+}
+
+#footer {
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+}
+
+#footer p {
+/*	color: #D4CBB6;*/
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+
+#footer a:link, #footer a:visited, #footer a:active {
+	color: #999;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #ccc;
+	text-decoration: none;
+}
