@@ -41,7 +41,7 @@ $dbinfo['host']="host";
 function filmtable ( ) {
 $rec=14;
 if (empty($_GET['end'])){
-    $end = 0; // record da cui partire... cioè il primo se non è
+    $end = 0; // record da cui partire... cioï¿½ il primo se non ï¿½
     } else {
     $end=$_GET['end'];
     }
@@ -103,7 +103,7 @@ echo "<a href=\"".$_SERVER['PHP_SELF']."?end=".$prev."\">Prev </a>";
 $prev = 'F';
 echo "No Prev ";
 }
-
+/* Here maybe we can play around in order to stop showing the right arrow then arrive to the las tist? */
 if ($i >=$rec){
 $next = intval($end+$rec);
 echo "<a href=\"".$_SERVER['PHP_SELF']."?end=".$next."\">Next</a>";
